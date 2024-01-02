@@ -1,0 +1,16 @@
+void printNumber(int numberLength) {
+  for(i = 1 ; i <= numberLength ; i++){
+    if(numberLength % 3 == 0 && numberLength % 5 == 0){
+      print('TigaLima');
+    }
+    else if(numberLength % 3 == 0){
+      print('Tiga');
+    }
+    else if(numberLength % 5 == 0){
+      print('Lima');
+    }
+    else{
+      print(i);
+    }
+  }
+}
